@@ -106,7 +106,7 @@ _Note: This project is currently a UI-only implementation with no backend integr
 
 1.  **Clone the repository:**
     
-        git clone [https://github.com/your-username/thesocialapp.git](https://github.com/your-username/thesocialapp.git)
+        git clone "https://github.com/IradriDasMCA2025/TheSocialApp.git"
         cd thesocialapp
         
     
