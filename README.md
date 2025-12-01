@@ -75,32 +75,60 @@ _Note: This project is currently a UI-only implementation with no backend integr
 
 ## 📂 Project Structure
 
-    src/
-    ├── components/          # Reusable UI components
-    │   ├── tabs/            # Tab content components (Overview, Activity, etc.)
-    │   ├── DashboardStats.jsx
-    │   ├── DonationForm.jsx
-    │   ├── Footer.jsx
-    │   ├── Navbar.jsx
-    │   ├── ProfileBanner.jsx
-    │   ├── ProfileSidebar.jsx
-    │   ├── SignInModal.jsx
-    │   ├── SupportBanner.jsx
-    │   ├── SupportSidebar.jsx
-    │   ├── TextChatInterface.jsx
-    │   ├── VideoChatInterface.jsx
-    │   ├── VideoFilterSidebar.jsx
-    │   ├── ChatSidebar.jsx
-    │   └── WelcomeBanner.jsx
-    ├── pages/               # Main page views
-    │   ├── AdminDashboard.jsx
-    │   ├── BlogEditorPage.jsx
-    │   ├── LandingPage.jsx
-    │   ├── ProfilePage.jsx
-    │   └── SupportUsPage.jsx
-    ├── App.jsx              # Main app component & routing
-    └── main.jsx             # Entry point
-    
+        TheSocialApp/
+        │
+        ├── index.html
+        ├── package.json
+        ├── package-lock.json
+        ├── vite.config.js
+        │
+        ├── public/
+        │   └── (static assets if any)
+        │
+        ├── src/
+        │   ├── App.jsx
+        │   ├── App.css
+        │   ├── main.jsx
+        │   │
+        │   ├── Landing/
+        │   │   ├── HeroSection.jsx
+        │   │   ├── LandingPage.jsx
+        │   │   ├── Navbar.jsx
+        │   │   ├── NewsletterSection.jsx
+        │   │   ├── PricingSection.jsx
+        │   │   ├── SecuritySection.jsx
+        │   │   └── SignInModal.jsx
+        │   │
+        │   ├── admin/
+        │   │   ├── blog/
+        │   │   │   └── NewBlog.jsx
+        │   │   │
+        │   │   ├── Dashboard/
+        │   │   │   ├── Dashboard.jsx
+        │   │   │   ├── DashboardSidebar.jsx
+        │   │   │   ├── DashboardStats.jsx
+        │   │   │   ├── Navbar.jsx
+        │   │   │   ├── WelcomeBanner.jsx
+        │   │   │   ├── OverviewTab.jsx
+        │   │   │   ├── ActivityTab.jsx
+        │   │   │   ├── AchievementsTab.jsx
+        │   │   │   ├── PodcastsTab.jsx
+        │   │   │   ├── AdminDashboard.jsx
+        │   │   │   ├── App.css
+        │   │   │   └── index.css
+        │   │
+        │   ├── TextChat/
+        │   │   ├── TextChatInterface.jsx
+        │   │   ├── TextChatFilterSidebar.jsx
+        │   │
+        │   └── videoChat/
+        │       ├── ChatSidebar.jsx
+        │       ├── VideoChat.jsx
+        │       └── VideoFilterSidebar.jsx
+        │
+        └── node_modules/   (omitted — auto-generated)
+
+
 
 ## 🛠️ Setup & Installation
 
