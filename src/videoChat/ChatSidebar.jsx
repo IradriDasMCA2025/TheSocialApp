@@ -58,8 +58,8 @@ const ChatSidebar = ({ isOpen, onClose }) => {
                     >
                         <div
                             className={`px-4 py-2 rounded-lg max-w-[80%] ${msg.sender === 'me'
-                                    ? 'bg-blue-600 text-white rounded-tr-none'
-                                    : 'bg-gray-200 text-gray-800 rounded-tl-none'
+                                ? 'bg-blue-600 text-white rounded-tr-none'
+                                : 'bg-gray-200 text-gray-800 rounded-tl-none'
                                 }`}
                         >
                             <p className="text-sm">{msg.text}</p>
