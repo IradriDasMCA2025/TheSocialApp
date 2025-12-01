@@ -11,12 +11,7 @@ import TextChatInterface from "./TextChat/TextChatInterface.jsx";
 
 
 function App() {
-  const route = createBrowserRouter([
-    {
-      path: "./admin",
-      element: <Dashboard></Dashboard>
-    }
-  ])
+
 
   return (
     <>
