@@ -99,7 +99,7 @@ const TextChatInterface = () => {
 
                     {!isChatActive ? (
                         <button onClick={toggleFilterSidebar}
-                            className="flex items-center gap-2 px-3 py-2 border text-sm rounded-lg hover:bg-gray-50 hidden sm:flex">
+                            className="flex items-center gap-2 px-3 py-2 border text-sm rounded-lg hover:bg-gray-50 sm:flex">
                             <HiFunnel className="w-4 h-4 text-gray-500" />
                             Filters
                         </button>
